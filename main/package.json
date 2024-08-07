@@ -11,5 +11,13 @@
     "ecosystem:cordova"
   ],
   "author": "Apache Cordova Team",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-plugin-media": "file:../plugins/cordova-plugin-media"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-media": {}
+    }
+  }
 }
